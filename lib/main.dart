@@ -14,7 +14,7 @@ FirebaseAnalytics analytics = FirebaseAnalytics();
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  //await GlobalConfiguration().loadFromAsset("configurations");
+  await GlobalConfiguration().loadFromAsset("config");
   runApp(MyApp());
 }
 
