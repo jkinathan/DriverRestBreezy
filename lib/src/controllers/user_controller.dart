@@ -44,6 +44,7 @@ class UserController extends ControllerMVC {
   void register() async {
     if (loginFormKey.currentState.validate()) {
       loginFormKey.currentState.save();
+      Navigator.of(scaffoldKey.currentContext).pushReplacementNamed('/Pages', arguments: 2);
       repository.register(user).then((value) {
         if (value != null && value.apiToken != null) {
           scaffoldKey.currentState.showSnackBar(SnackBar(
