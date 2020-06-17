@@ -37,7 +37,7 @@ dependencies:
   intl: 
   html: 
   shared_preferences: 
-  flutter_html: 
+  flutter_html: ^0.10.4
   location: 
   dynamic_theme: 
   url_launcher: 

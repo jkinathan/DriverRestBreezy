@@ -160,33 +160,33 @@ class Helper {
 
   static Html applyHtml(context, String html, {TextStyle style}) {
     return Html(
-      // blockSpacing: 0,
+      blockSpacing: 0,
       data: html,
-      // defaultTextStyle: style ?? Theme.of(context).textTheme.body2.merge(TextStyle(fontSize: 14)),
-      // useRichText: false,
-      // customRender: (node, children) {
-      //   if (node is dom.Element) {
-      //     switch (node.localName) {
-      //       case "br":
-      //         return SizedBox(
-      //           height: 0,
-      //         );
-      //       case "p":
-      //         return Padding(
-      //           padding: EdgeInsets.only(top: 0, bottom: 0),
-      //           child: Container(
-      //             width: double.infinity,
-      //             child: Wrap(
-      //               crossAxisAlignment: WrapCrossAlignment.center,
-      //               alignment: WrapAlignment.start,
-      //               children: children,
-      //             ),
-      //           ),
-      //         );
-      //     }
-      //   }
-      //   return null;
-      // },
+      defaultTextStyle: style ?? Theme.of(context).textTheme.body2.merge(TextStyle(fontSize: 14)),
+      useRichText: false,
+      customRender: (node, children) {
+        if (node is dom.Element) {
+          switch (node.localName) {
+            case "br":
+              return SizedBox(
+                height: 0,
+              );
+            case "p":
+              return Padding(
+                padding: EdgeInsets.only(top: 0, bottom: 0),
+                child: Container(
+                  width: double.infinity,
+                  child: Wrap(
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    alignment: WrapAlignment.start,
+                    children: children,
+                  ),
+                ),
+              );
+          }
+        }
+        return null;
+      },
     );
   }
 
