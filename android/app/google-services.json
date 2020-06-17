@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1054789011988:android:88eb9839dab50209287501",
+        "mobilesdk_app_id": "1:1054789011988:android:02a015a25d55e8aa287501",
         "android_client_info": {
-          "package_name": "com.smartersvision.deliveryboy"
+          "package_name": "com.deliveryboy.deliveryboy"
         }
       },
       "oauth_client": [
