@@ -30,7 +30,7 @@ dependencies:
   cupertino_icons: ^0.1.3
   google_maps_flutter: 
   mvc_pattern: 
-  # global_configuration: 
+  global_configuration: 
   http: 
   intl: 
   html: 
