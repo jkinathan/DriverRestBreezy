@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1054789011988",
+    "firebase_url": "https://tax-as-a-service.firebaseio.com",
+    "project_id": "tax-as-a-service",
+    "storage_bucket": "tax-as-a-service.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054789011988:android:88eb9839dab50209287501",
+        "android_client_info": {
+          "package_name": "com.smartersvision.deliveryboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054789011988-hv51pon8jq9lnsk6ibflhkah1c0qclc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBygBLQRVJjXC--PXX0y5jTViZIHu63LVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054789011988-hv51pon8jq9lnsk6ibflhkah1c0qclc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
